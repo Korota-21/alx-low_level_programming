@@ -1,0 +1,107 @@
+body {
+    background: #010101;
+}
+
+.gap,
+h1 {
+    color: gold;
+}
+
+.panel {
+    background: #121212;
+    color: #fefefe;
+}
+
+.panel.panel-heading.panel-heading-actions {
+    background: #225588;
+    color: #f5f5f5;
+}
+
+.panel.panel-default .panel-heading .panel-title,
+.panel-default>.panel-heading {
+    background: #225588;
+    color: #f5f5f5;
+}
+
+.list-group-item.in_second_deadline {
+    background: #112233;
+    color: gold;
+}
+
+.panel .panel-default {
+    background: #225588;
+}
+
+.dhx_cal_my_button {
+    border-color: #323232;
+}
+
+.dhx_cal_tab {
+    border-color: #323232;
+}
+
+.alert {
+    background: #213945;
+}
+
+pre {
+    background: #34353b;
+    color: #f5f5f5;
+}
+
+.list-group-item,
+.sidebar {
+    background: #333333;
+    color: #f5f5f5;
+}
+
+.panel-footer {
+    background: #104275;
+    color: #f5f5f5;
+}
+
+tr,
+td,
+.modal-content,
+.dhx_cal_navline {
+    font-weight: bold;
+    background: #121212;
+    color: #fefefe;
+}
+
+.dhx_scale_bar {
+    background: #225588;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.dhx_after .dhx_month_body,
+.dhx_before .dhx_month_body,
+.dhx_month_body {
+    background: #222;
+    font-weight: bold;
+}
+
+.dhx_month_head,
+.dhx_after .dhx_month_head,
+.dhx_before .dhx_month_head {
+    background: #222;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.dhx_cal_event_line {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+ul:nth-child(2)>li:nth-child(15) {
+    background: #222;
+}
+
+.sidebar .logo-container {
+    background: #555;
+}
