@@ -1,29 +1,20 @@
-#include <stdio.h>
 #include "lists.h"
-#include <stdlib.h>
 
 /**
- * free_list -add node to list.
- *Description: Function that frees a list_t list
- * @head: pointer to a pointer
- * Return: void.
- **/
-
-
+ *free_list - Frees a list
+ *@head: A pointer to the list head
+ *
+ */
 
 void free_list(list_t *head)
 {
+	list_t *tmp;
 
-list_t  *tmp;
-if (head != NULL)
-{
-while (head != NULL)
-{
-tmp = head;
-head = head->next;
-free(tmp);
+	while (head)
+	{
+		tmp = head->next;
+		free(head->str);
+		free(head);
+		head = tmp;
+	}
 }
-
-}
-}
-
